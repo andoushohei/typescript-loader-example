@@ -1,0 +1,19 @@
+{
+  "name": "typescript-loader-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andoushohei/typescript-loader-example.git",
+  "author": "ANDO Shohei <andoushohei@realglobe.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
