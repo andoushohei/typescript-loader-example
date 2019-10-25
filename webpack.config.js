@@ -4,7 +4,12 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: [/* TODO */],
+        use: [
+          {
+            loader: 'ts-loader',
+            options: { transpileOnly: true },
+          },
+        ],
       },
     ],
   },
